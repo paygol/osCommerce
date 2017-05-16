@@ -1,30 +1,33 @@
 # osCommerce
 Accept several payment methods in your sopping cart such as mobile payments (SMS &amp; Phone call), Credit Cards, PayPal, Sofort, iDeal, Mister Cash, IBAN and more...
-## English <br>
+
 ## PayGol module for osCommerce, version 1.0
 <br>
-* [About PayGol](#about-paygol)<br>
-* [Requirements](#requirements)<br>
-* [Installation](#installation)<br>
-* [Testing](#testing)<br>
-* [Important Notes](#important-notes)<br><br>
+## English <br>
+- [About PayGol](#about-paygol)<br>
+- [Requirements](#requirements)<br>
+- [Installation](#installation)<br>
+- [Testing](#testing)<br>
+- [Important Notes](#important-notes)<br><br>
 
 
-## H2 Español
-## H2 Módulo de PayGol para osCommerce, versión 1.0
+
+## Módulo de PayGol para osCommerce, versión 1.0
 <br>
-[Acerca de PayGol](#acerca-de-paygol)<br>
-[Requerimientos](#requerimientos)<br>
-[Instalación](#instalación)<br>
-[Pruebas](#pruebas)<br>
-[Notas Importantes](#notas-importantes)<br><br>
+## Español
+<br>
+- [Acerca de PayGol](#acerca-de-paygol)<br>
+- [Requerimientos](#requerimientos)<br>
+- [Instalación](#instalación)<br>
+- [Pruebas](#pruebas)<br>
+- [Notas Importantes](#notas-importantes)<br><br>
 
 
 
 
-******* English *******
+## 
 
-PayGol module for osCommerce, version 1.0
+## PayGol module for osCommerce, version 1.0
 
 
 ## About PayGol:
@@ -73,9 +76,9 @@ PayGol module for osCommerce, version 1.0
 
 
   
-******* Español *******
+##
 
-Módulo de PayGol para osCommerce, versión 1.0
+## Módulo de PayGol para osCommerce, versión 1.0
 
 
 ## Acerca de PayGol:

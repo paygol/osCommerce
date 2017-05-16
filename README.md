@@ -1,6 +1,8 @@
 # osCommerce
 Accept several payment methods in your sopping cart such as mobile payments (SMS &amp; Phone call), Credit Cards, PayPal, Sofort, iDeal, Mister Cash, IBAN and more...
 
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
+
 ******* English *******
 
 PayGol module for osCommerce, version 1.0

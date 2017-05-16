@@ -61,9 +61,12 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
   to print it in order to pay by cash at a given place). In these cases the product is shown as not paid, and only 
   once it's confirmed by the provider will it show as paid. We strongly recommend that you inform your customers about this 
   beforehand in order to avoid confusions.
-
+	
 
 ---
+
+<br><br>
+
 ## Módulo de PayGol para osCommerce, versión 1.0
 
 

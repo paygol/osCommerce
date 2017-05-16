@@ -16,7 +16,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 
 - PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
 - Additional information can be found at:
-  https://www.paygol.com  
+  https://www.paygol.com  <br>
   https://www.paygol.com/pricing
     
 

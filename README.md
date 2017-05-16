@@ -16,9 +16,8 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 [Notas Importantes](#notas-importantes) <br><br>
 
 ## 
-
+<br>
 ## PayGol module for osCommerce, version 1.0
-
 
 ### About PayGol:
 
@@ -67,7 +66,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 
   
 ##
-
+<br>
 ## Módulo de PayGol para osCommerce, versión 1.0
 
 

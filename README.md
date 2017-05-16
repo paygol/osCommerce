@@ -20,7 +20,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 ## PayGol module for osCommerce, version 1.0
 
 
-## About PayGol:
+### About PayGol:
 
 - PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
 - Additional information can be found at:
@@ -28,7 +28,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
   https://www.paygol.com/pricing
     
 
-## Requirements:
+### Requirements:
 
 - Working osCommerce installation (tested with version 2.3.4, 2.3.3 ).
 - PayGol account, you can register for free at https://secure.paygol.com/register
@@ -36,7 +36,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
    https://www.paygol.com/webapps (you must be logged in).
   
   
-## Installation:
+### Installation:
 
 - Unzip the contents of "paygol-for-oscommerce.1.0.zip" directly into the "catalog" folder on your osCommerce site.
 - Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the PayGol module). 
@@ -49,13 +49,13 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 
 	
 
-## Testing:
+### Testing:
 
 - To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel, 
   at PayGol's website. Be sure to change it back before going live.
 
  
-## Important Notes:
+### Important Notes:
 
 - While in test mode, an IPN request will be issued immediately after each test.
 - Payments are usually notified immediately; however, certain payment methods may take longer to confirm the payment 
@@ -71,7 +71,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 ## Módulo de PayGol para osCommerce, versión 1.0
 
 
-## Acerca de PayGol:
+### Acerca de PayGol:
 
 - PayGol es un proveedor de servicios de pago en línea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
 - Información adicional se encuentra disponible en:
@@ -79,14 +79,14 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
   https://www.paygol.com/es/pricing
 
 
-## Requerimientos:
+### Requerimientos:
 
 - Instalación funcional de osCommerce (probado con la versión 2.3.4, 2.3.3).
 - Cuenta en PayGol, puedes registrarte de forma gratuita en https://secure.paygol.com/register
 - Servicio tipo "Estándar", el cual puede ser creado en https://www.paygol.com/es/webapps (debes haber ingresado a tu cuenta).
   
 
-## Instalación:
+### Instalación:
 
 - Descomprime el contenido de "paygol-for-oscommerce.1.0.zip" directamente en la carpeta "catalog" de tu instalación de osCommerce.
 - Instala el módulo en tu panel de administración de osCommerce (Modules- > Payment -> Install module -> Buscar e instalar el módulo de PayGol).
@@ -98,13 +98,13 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 - Guarda los cambios.
 
   
-## Pruebas:
+### Pruebas:
 
 - Para probar el módulo tras su instalación puedes activar el modo de pruebas de tu servicio en la sección "Mis Servicios" 
   de tu panel, en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez concluídas tus pruebas.
 
   
-## Notas Importantes:
+### Notas Importantes:
 
 - En modo de pruebas se realizará un llamado a tu archivo IPN inmediatamente después de cada prueba.
 - Los pagos usualmente son notificados inmediatamente; ahora bien, algunos métodos de pago podrían tomar más tiempo en notificar 

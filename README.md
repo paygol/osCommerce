@@ -7,8 +7,9 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 [Installation](#installation) <br>
 [Testing](#testing) <br>
 [Important Notes](#important-notes) <br><br>
+
 ---
-<br>
+
 ## PayGol module for osCommerce, version 1.0
 
 ### About PayGol:

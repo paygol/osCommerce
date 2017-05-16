@@ -2,29 +2,20 @@
 Accept several payment methods in your sopping cart such as mobile payments (SMS &amp; Phone call), Credit Cards, PayPal, Sofort, iDeal, Mister Cash, IBAN and more...
 
 PayGol module for osCommerce, version 1.0
-[About PayGol](#about-payGol)
-
-[Requirements](#requirements)
-
-[Installation](#installation)
-
-[Testing](#testing)
-
-[Important Notes](#important-notes)
-
+[About PayGol](#about-paygol)<br>
+[Requirements](#requirements)<br>
+[Installation](#installation)<br>
+[Testing](#testing)<br>
+[Important Notes](#important-notes)<br><br>
 
 
 Español
-Módulo de PayGol para osCommerce, versión 1.0
-[Acerca de PayGol](#Acerca de PayGol)
-
-[Requerimientos](#Requerimientos)
-
-[Instalación](#Instalación)
-
-[Pruebas](#Pruebas)
-
-[Notas Importantes](#Notas Importantes)
+Módulo de PayGol para osCommerce, versión 1.0<br>
+[Acerca de PayGol](#acerca-de-paygol)<br>
+[Requerimientos](#requerimientos)<br>
+[Instalación](#instalación)<br>
+[Pruebas](#pruebas)<br>
+[Notas Importantes](#notas-importantes)<br><br>
 
 
 
@@ -85,7 +76,7 @@ PayGol module for osCommerce, version 1.0
 Módulo de PayGol para osCommerce, versión 1.0
 
 
-# Acerca de PayGol:
+## Acerca de PayGol:
 
 - PayGol es un proveedor de servicios de pago en línea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
 - Información adicional se encuentra disponible en:
@@ -93,14 +84,14 @@ Módulo de PayGol para osCommerce, versión 1.0
   https://www.paygol.com/es/pricing
 
 
-# Requerimientos:
+## Requerimientos:
 
 - Instalación funcional de osCommerce (probado con la versión 2.3.4, 2.3.3).
 - Cuenta en PayGol, puedes registrarte de forma gratuita en https://secure.paygol.com/register
 - Servicio tipo "Estándar", el cual puede ser creado en https://www.paygol.com/es/webapps (debes haber ingresado a tu cuenta).
   
 
-# Instalación:
+## Instalación:
 
 - Descomprime el contenido de "paygol-for-oscommerce.1.0.zip" directamente en la carpeta "catalog" de tu instalación de osCommerce.
 - Instala el módulo en tu panel de administración de osCommerce (Modules- > Payment -> Install module -> Buscar e instalar el módulo de PayGol).
@@ -112,13 +103,13 @@ Módulo de PayGol para osCommerce, versión 1.0
 - Guarda los cambios.
 
   
-# Pruebas:
+## Pruebas:
 
 - Para probar el módulo tras su instalación puedes activar el modo de pruebas de tu servicio en la sección "Mis Servicios" 
   de tu panel, en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez concluídas tus pruebas.
 
   
-# Notas Importantes:
+## Notas Importantes:
 
 - En modo de pruebas se realizará un llamado a tu archivo IPN inmediatamente después de cada prueba.
 - Los pagos usualmente son notificados inmediatamente; ahora bien, algunos métodos de pago podrían tomar más tiempo en notificar 

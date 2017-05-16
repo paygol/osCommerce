@@ -34,7 +34,7 @@ Módulo de PayGol para osCommerce, versión 1.0
 PayGol module for osCommerce, version 1.0
 
 
-# About PayGol:
+## About PayGol:
 
 - PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
 - Additional information can be found at:
@@ -42,7 +42,7 @@ PayGol module for osCommerce, version 1.0
   https://www.paygol.com/pricing
     
 
-# Requirements:
+## Requirements:
 
 - Working osCommerce installation (tested with version 2.3.4, 2.3.3 ).
 - PayGol account, you can register for free at https://secure.paygol.com/register
@@ -50,7 +50,7 @@ PayGol module for osCommerce, version 1.0
    https://www.paygol.com/webapps (you must be logged in).
   
   
-# Installation:
+## Installation:
 
 - Unzip the contents of "paygol-for-oscommerce.1.0.zip" directly into the "catalog" folder on your osCommerce site.
 - Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the PayGol module). 
@@ -63,13 +63,13 @@ PayGol module for osCommerce, version 1.0
 
 	
 
-# Testing:
+## Testing:
 
 - To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel, 
   at PayGol's website. Be sure to change it back before going live.
 
  
-# Important Notes:
+## Important Notes:
 
 - While in test mode, an IPN request will be issued immediately after each test.
 - Payments are usually notified immediately; however, certain payment methods may take longer to confirm the payment 

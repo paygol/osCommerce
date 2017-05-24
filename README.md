@@ -9,11 +9,12 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 [Requirements](#requirements) <br>
 [Installation](#installation) <br>
 [Testing](#testing) <br>
-[Important Notes](#important-notes) <br><br>
+[Important Notes](#important-notes) <br>
+[Changelog](#changelog)<br><br>
 
 ---
 
-## PayGol module for osCommerce, version 1.0
+## PayGol module for osCommerce, version 1.1
 
 ### About PayGol:
 
@@ -32,13 +33,14 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
   
 ### Installation:
 
-- Unzip the contents of "paygol-for-oscommerce.1.0.zip" directly into the "catalog" folder on your osCommerce site.
+- Unzip the contents of "paygol-for-oscommerce.1.1.zip" directly into the "catalog" folder on your osCommerce site.
 - Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the PayGol module). 
 - Copy the provided IPN URL and paste it in the "Process URL (IPN)" field at your service's configuration, accessible through
   the "My Services" section of your panel, at PayGol's website.
 - Click "Edit" to configure the module.
 - Make sure that the module is active (Enable = True).
 - Enter the ID of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
+- Enter the Secret key of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
 - Save the changes.
 
 	
@@ -58,6 +60,16 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
   once it's confirmed by the provider will it show as paid. We strongly recommend that you inform your customers about this 
   beforehand in order to avoid confusions.
 	
+
+### Changelog
+
+
+#### v1.1
+- New release, added validation for payment notifications.
+
+#### v1.0
+
+- Initial release.
 
 ---
 <br>

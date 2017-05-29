@@ -5,7 +5,7 @@
 Accept several payment methods in your sopping cart such as mobile payments (SMS &amp; Phone call), Credit Cards, PayPal, Sofort, iDeal, Mister Cash, IBAN and more...
 
 ## PayGol module for osCommerce <br>
-[About PayGol](#about-paygol) <br>
+[About Paygol](#about-paygol) <br>
 [Requirements](#requirements) <br>
 [Installation](#installation) <br>
 [Testing](#testing) <br>
@@ -14,11 +14,11 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 
 ---
 
-## PayGol module for osCommerce, version 1.1
+## Paygol module for osCommerce, version 1.1
 
-### About PayGol:
+### About Paygol:
 
-- PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
+- Paygol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
 - Website: https://www.paygol.com 
 - Payment methods: https://www.paygol.com/pricing
     
@@ -26,7 +26,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 ### Requirements:
 
 - Working osCommerce installation (tested with version 2.3.4, 2.3.3 ).
-- PayGol account, you can register for free at https://secure.paygol.com/register
+- Paygol account, you can register for free at https://secure.paygol.com/register
 - "Standard" type PayGol service (make sure to select "Integrated" in the service settings), which can be created at 
    https://www.paygol.com/webapps (you must be logged in).
   
@@ -34,13 +34,13 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 ### Installation:
 
 - Unzip the contents of "paygol-for-oscommerce.1.1.zip" directly into the "catalog" folder on your osCommerce site.
-- Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the PayGol module). 
+- Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the Paygol module). 
 - Copy the provided IPN URL and paste it in the "Process URL (IPN)" field at your service's configuration, accessible through
-  the "My Services" section of your panel, at PayGol's website.
+  the "My Services" section of your panel, at Paygol's website.
 - Click "Edit" to configure the module.
 - Make sure that the module is active (Enable = True).
 - Enter the ID of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
-- Enter the Secret key of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
+- Enter the Secret key of your PayGol service (it can be found at the "My Services" section of your panel, at Paygol's website).
 - Save the changes.
 
 	
@@ -48,7 +48,7 @@ Accept several payment methods in your sopping cart such as mobile payments (SMS
 ### Testing:
 
 - To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel, 
-  at PayGol's website. Be sure to change it back before going live.
+  at Paygol's website. Be sure to change it back before going live.
 
  
 ### Important Notes:

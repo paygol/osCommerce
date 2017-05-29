@@ -1,11 +1,11 @@
 ******* English *******
 
-PayGol module for osCommerce, version 1.1
+Paygol module for osCommerce, version 1.1
 
 
-About PayGol:
+About Paygol:
 
-- PayGol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
+- Paygol is an online payment service provider that offers a wide variety of both worldwide and local payment methods.
 - Additional information can be found at:
   https://www.paygol.com  
   https://www.paygol.com/pricing
@@ -14,21 +14,21 @@ About PayGol:
 Requirements:
 
 - Working osCommerce installation (tested with version 2.3.4, 2.3.3 ).
-- PayGol account, you can register for free at https://secure.paygol.com/register
-- "Standard" type PayGol service (make sure to select "Integrated" in the service settings), which can be created at 
+- Paygol account, you can register for free at https://secure.paygol.com/register
+- "Standard" type Paygol service (make sure to select "Integrated" in the service settings), which can be created at 
    https://www.paygol.com/webapps (you must be logged in).
   
   
 Installation:
 
 - Unzip the contents of "paygol-for-oscommerce.1.1.zip" directly into the "catalog" folder on your osCommerce site.
-- Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the PayGol module). 
+- Install the module in your osCommerce administration panel (Modules- > Payment -> Install module -> Find and install the Paygol module). 
 - Copy the provided IPN URL and paste it in the "Process URL (IPN)" field at your service's configuration, accessible through
-  the "My Services" section of your panel, at PayGol's website.
+  the "My Services" section of your panel, at Paygol's website.
 - Click "Edit" to configure the module.
 - Make sure that the module is active (Enable = True).
-- Enter the ID of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
-- Enter the Secret key of your PayGol service (it can be found at the "My Services" section of your panel, at PayGol's website).
+- Enter the ID of your Paygol service (it can be found at the "My Services" section of your panel, at Paygol's website).
+- Enter the Secret key of your Paygol service (it can be found at the "My Services" section of your panel, at Paygol's website).
 - Save the changes.
 
 	
@@ -36,7 +36,7 @@ Installation:
 Testing:
 
 - To test the newly installed module you can enable your service's "Test" mode at the "My Services" section of your panel, 
-  at PayGol's website. Be sure to change it back before going live.
+  at Paygol's website. Be sure to change it back before going live.
 
  
 Important Notes:
@@ -52,12 +52,12 @@ Important Notes:
   
 ******* Español *******
 
-Módulo de PayGol para osCommerce, versión 1.1
+Módulo de Paygol para osCommerce, versión 1.1
 
 
-Acerca de PayGol:
+Acerca de Paygol:
 
-- PayGol es un proveedor de servicios de pago en línea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
+- Paygol es un proveedor de servicios de pago en línea que ofrece una amplia variedad de formas de pago tanto a nivel mundial como local.
 - Información adicional se encuentra disponible en:
   https://www.paygol.com/es  
   https://www.paygol.com/es/pricing
@@ -66,27 +66,27 @@ Acerca de PayGol:
 Requerimientos:
 
 - Instalación funcional de osCommerce (probado con la versión 2.3.4, 2.3.3).
-- Cuenta en PayGol, puedes registrarte de forma gratuita en https://secure.paygol.com/register
+- Cuenta en Paygol, puedes registrarte de forma gratuita en https://secure.paygol.com/register
 - Servicio tipo "Estándar", el cual puede ser creado en https://www.paygol.com/es/webapps (debes haber ingresado a tu cuenta).
   
 
 Instalación:
 
 - Descomprime el contenido de "paygol-for-oscommerce.1.1.zip" directamente en la carpeta "catalog" de tu instalación de osCommerce.
-- Instala el módulo en tu panel de administración de osCommerce (Modules- > Payment -> Install module -> Buscar e instalar el módulo de PayGol).
+- Instala el módulo en tu panel de administración de osCommerce (Modules- > Payment -> Install module -> Buscar e instalar el módulo de Paygol).
 - Copia la IPN URL proporcionada y pégala en el campo "URL de proceso (IPN)" de la configuración de tu servicio, accesible a través de 
-  la sección "Mis Servicios" de tu panel, en el sitio web de PayGol.
+  la sección "Mis Servicios" de tu panel, en el sitio web de Paygol.
 - Haz click en "Edit" para proceder con la configuración del módulo.
 - Asegúrate de que el módulo esté activado (Enable = True).
-- Ingresa el ID de tu servicio de PayGol (puede ser encontrado en la sección "Mis Servicios" de tu panel, en el sitio web de PayGol).
-- Ingresa el Secret key de tu servicio de PayGol (puede ser encontrado en la sección "Mis Servicios" de tu panel, en el sitio web de PayGol).
+- Ingresa el ID de tu servicio de Paygol (puede ser encontrado en la sección "Mis Servicios" de tu panel, en el sitio web de Paygol).
+- Ingresa el Secret key de tu servicio de Paygol (puede ser encontrado en la sección "Mis Servicios" de tu panel, en el sitio web de Paygol).
 - Guarda los cambios.
 
   
 Pruebas:
 
 - Para probar el módulo tras su instalación puedes activar el modo de pruebas de tu servicio en la sección "Mis Servicios" 
-  de tu panel, en el sitio web de PayGol. Recuerda cambiarlo de vuelta una vez concluídas tus pruebas.
+  de tu panel, en el sitio web de Paygol. Recuerda cambiarlo de vuelta una vez concluídas tus pruebas.
 
   
 Notas Importantes:

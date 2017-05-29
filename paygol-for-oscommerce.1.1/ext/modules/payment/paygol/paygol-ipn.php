@@ -7,13 +7,16 @@
 	$key_validate = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_KEY' AND configuration_value = '".$secret_key."' ");
 	$key_result = tep_db_fetch_array($key_validate);
 	$keyresult = $key_result['configuration_value'];
-	if ($keyresult != $secret_key) {
-		echo "Validation error";
-		exit;
-	}
+	if ($keyresult != $secret_key) { echo "Validation error"; exit; }
+	// ID validation
+	$service_id	   = $_GET['service_id'];
+	$id_validate = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_ID' AND configuration_value = '".$service_id."' ");
+	$id_result = tep_db_fetch_array($id_validate);
+	$idresult = $id_result['configuration_value'];
+	if ($service_id != $idresult) { echo "Error ID"; exit; }
 	
 	//get form paygol
-	$service_id	   = $_GET['service_id']; 
+	//$service_id	   = $_GET['service_id']; 
 	$message_id	   = $_GET['message_id'];
 	$shortcode	   = $_GET['shortcode'];
 	$keyword	   = $_GET['keyword'];
@@ -33,7 +36,7 @@
 	$order_total_id = $indexes[1]; 
 	$order_id       = $indexes[2];
 	$comments       = "
-		PayGol payment verified\n
+		Paygol payment verified\n
 		Order: ".$order_id."\n
 		Price: ".$frmprice."\n
 		Currency: ".$frmcurrency."\n

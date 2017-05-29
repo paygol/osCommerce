@@ -1,6 +1,6 @@
 <?php
 /*
-PayGol Module for osCommerce
+Paygol Module for osCommerce
 */
 function url(){
   return sprintf(
@@ -12,12 +12,12 @@ $url2		=	url(); // url
 $url3   	= 	strpos($url2, $url1); // nro
 $url4  		= 	substr($url2, 0,$url3);
 $url_ipn 	= 	$url4."ext/modules/payment/paygol/paygol-ipn.php";	
-define('MODULE_PAYMENT_PAYGOL_TEXT_TITLE', 'PayGol');
-define('MODULE_PAYMENT_PAYGOL_TEXT_PUBLIC_TITLE', 'PayGol');
-define('MODULE_PAYMENT_PAYGOL_TEXT_DESCRIPTION', '<strong>PayGol Detalles:</strong></br><img src="images/icon_popup.gif" border="0">&nbsp;<a href="http://www.paygol.com" target="_blank" style="text-decoration: underline; font-weight: bold;">Visita PayGol</a><br><br><br><img src="images/icon_save.gif" border="0"><strong> IPN URL:</strong><br><br> '.$url_ipn.'<br><br>');
+define('MODULE_PAYMENT_PAYGOL_TEXT_TITLE', 'Paygol');
+define('MODULE_PAYMENT_PAYGOL_TEXT_PUBLIC_TITLE', 'Paygol');
+define('MODULE_PAYMENT_PAYGOL_TEXT_DESCRIPTION', '<strong>Paygol Detalles:</strong></br><img src="images/icon_popup.gif" border="0">&nbsp;<a href="http://www.paygol.com" target="_blank" style="text-decoration: underline; font-weight: bold;">Visita Paygol</a><br><br><br><img src="images/icon_save.gif" border="0"><strong> IPN URL:</strong><br><br> '.$url_ipn.'<br><br>');
 define('MODULE_PAYMENT_PAYGOL_ID_TITLE' , 'ID Servicio');
 define('MODULE_PAYMENT_PAYGOL_KEY_TITLE' , 'Clave secreta');
-define('MODULE_PAYMENT_PAYGOL_ACTIVATE_TITLE' , 'Activar modulo PayGol.');
-define('MODULE_PAYMENT_PAYGOL_ACTIVATE_DETA' , '¿Aceptar pagos via PayGol?');
+define('MODULE_PAYMENT_PAYGOL_ACTIVATE_TITLE' , 'Activar modulo Paygol.');
+define('MODULE_PAYMENT_PAYGOL_ACTIVATE_DETA' , '¿Aceptar pagos via Paygol?');
 define('MODULE_PAYMENT_PAYGOL_STATUS_C' , 'Terminado');
 ?>

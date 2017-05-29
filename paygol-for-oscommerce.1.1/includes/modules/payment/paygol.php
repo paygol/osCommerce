@@ -1,11 +1,11 @@
 <?php
 /*
-PayGol Module for osCommerce v 1.1
+Paygol Module for osCommerce v 1.1
 */
 	define('MODULE_PAYMENT_PAYGOL_ID_TITLE' , 'Service ID');
 	define('MODULE_PAYMENT_PAYGOL_KEY_TITLE' , 'Secret Key');
 	define('MODULE_PAYMENT_PAYGOL_ACTIVATE_TITLE' , 'Enable');
-	define('MODULE_PAYMENT_PAYGOL_ACTIVATE_DETA' , 'Do you want to enable PayGol payments?');
+	define('MODULE_PAYMENT_PAYGOL_ACTIVATE_DETA' , 'Do you want to enable Paygol payments?');
 	define('MODULE_PAYMENT_PAYGOL_STATUS_C' , 'Completed');	
 
 	class PayGol
@@ -288,7 +288,7 @@ PayGol Module for osCommerce v 1.1
 	  global $customer_id, $order, $order_totals, $sendto, $billto, $languages_id, $payment, $currencies, $cart, $cart_paygol_ID;
       global $$payment;
 	  $order_id = $cart_paygol_ID;
-		  $order_status = tep_db_query("select orders_status_id from " . TABLE_ORDERS_STATUS . " where orders_status_name = 'PayGol Complete' limit 1");
+		  $order_status = tep_db_query("select orders_status_id from " . TABLE_ORDERS_STATUS . " where orders_status_name = 'Paygol Complete' limit 1");
 			if (tep_db_num_rows($order_status)) {
 				$check = tep_db_fetch_array($order_status);
 				$order_status_id = $check['orders_status_id'];

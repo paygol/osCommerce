@@ -1,10 +1,10 @@
-<img src="paygol_logo.png" alt="PayGol - osCommerce" /><br>
+<img src="paygol_logo.png" alt="Paygol - osCommerce" /><br>
 
 
 # osCommerce
 Accept several payment methods in your sopping cart such as mobile payments (SMS &amp; Phone call), Credit Cards, PayPal, Sofort, iDeal, Mister Cash, IBAN and more...
 
-## PayGol module for osCommerce <br>
+## Paygol module for osCommerce <br>
 [About Paygol](#about-paygol) <br>
 [Requirements](#requirements) <br>
 [Installation](#installation) <br>

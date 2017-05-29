@@ -3,20 +3,19 @@
 	require('includes/application_top.php');
 	
 	// Secret key validation
-	$secret_key	=$_GET['key'];
-	$key_validate = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_KEY' AND configuration_value = '".$secret_key."' ");
-	$key_result = tep_db_fetch_array($key_validate);
-	$keyresult = $key_result['configuration_value'];
+	$secret_key	= $_GET['key'];
+	$key_validate   = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_KEY' AND configuration_value = '".$secret_key."' ");
+	$key_result     = tep_db_fetch_array($key_validate);
+	$keyresult      = $key_result['configuration_value'];
 	if ($keyresult != $secret_key) { echo "Validation error"; exit; }
 	// ID validation
-	$service_id	   = $_GET['service_id'];
-	$id_validate = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_ID' AND configuration_value = '".$service_id."' ");
-	$id_result = tep_db_fetch_array($id_validate);
-	$idresult = $id_result['configuration_value'];
+	$service_id	= $_GET['service_id'];
+	$id_validate    = tep_db_query("SELECT configuration_value, configuration_key  FROM " . TABLE_CONFIGURATION . " WHERE configuration_key='MODULE_PAYMENT_PAYGOL_SERVICE_ID' AND configuration_value = '".$service_id."' ");
+	$id_result      = tep_db_fetch_array($id_validate);
+	$idresult       = $id_result['configuration_value'];
 	if ($service_id != $idresult) { echo "Error ID"; exit; }
 	
 	//get form paygol
-	//$service_id	   = $_GET['service_id']; 
 	$message_id	   = $_GET['message_id'];
 	$shortcode	   = $_GET['shortcode'];
 	$keyword	   = $_GET['keyword'];
@@ -28,14 +27,14 @@
 	$points		   = $_GET['points'];
 	$price		   = $_GET['price'];
 	$currency 	   = $_GET['currency'];
-	$frmcurrency   = $_GET['frmcurrency'];
+	$frmcurrency       = $_GET['frmcurrency'];
 	$method 	   = $_GET['method'];
 	$frmprice	   = $_GET['frmprice'];
-	$indexes        = explode(";", $custom);
-	$customer_id    = $indexes[0]; 
-	$order_total_id = $indexes[1]; 
-	$order_id       = $indexes[2];
-	$comments       = "
+	$indexes           = explode(";", $custom);
+	$customer_id       = $indexes[0]; 
+	$order_total_id    = $indexes[1]; 
+	$order_id          = $indexes[2];
+	$comments          = "
 		Paygol payment verified\n
 		Order: ".$order_id."\n
 		Price: ".$frmprice."\n
@@ -60,10 +59,10 @@
 		{
 			// update
 			$sql_data_array = array('orders_id' => $order_id,
-							'orders_status_id' => $order_status_id,
-							'date_added' => 'now()',
+							'orders_status_id'  => $order_status_id,
+							'date_added' 	    => 'now()',
 							'customer_notified' => 0,
-							'comments' => $comments);
+							'comments'          => $comments);
 			tep_db_perform(TABLE_ORDERS_STATUS_HISTORY, $sql_data_array);
 			tep_db_query("update " . TABLE_ORDERS . " set orders_status = ". $order_status_id .", last_modified = now() where orders_id = " .$order_id. "");
 		}
